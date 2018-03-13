@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天天果园-详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/Rightjt/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/search/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/shopCar/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/wuliu/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/phone/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/kefu/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/downjt/iconfont.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="top">
+			<div class="address">
+				<i class="iconfont">&#xe622;</i>
+				<a href="#" class="selt">上海</a>
+				<span></span>
+				<div class="add">
+					<p>热门城市：</p>
+					<ul class="city">
+						<a href="#">上海</a>
+						<a href="#">广州</a>
+						<a href="#">北京</a>
+						<a href="#">苏州</a>
+						<a href="#">南京</a>
+						<a href="#">深圳</a>
+					</ul>
+					<p>选择城市：</p>
+					<ul class="citys"></ul>
+				</div>
+			</div>
+			<p class="by">满百包邮（环郊内）</p>
+			<a href="#" target="_blank" class="xyd">星夜达</a>	
+			<ul class="nav">
+				<li class="first">
+					<a href="login.html" target="_blank">[ 登录 ] , </a> 
+					<a href="register.html" target="_blank">[ 注册有惊喜 ]</a>
+					<a href="javascript:;" target="_blank" class="user exit"></a>  
+					<a href="javascript:;" target="_blank" class="exit">[ 退出登录 ]</a>
+				</li>
+				<li>|</li>
+				<li class="gygg">
+					<a href="#">果园公告</a>
+					<div class="more">
+						<ul class="ad">
+							<li><a href="">全仓2000元充值活动调整公告</a><span>new</span></li>
+							<li><a href="">全仓充值活动调整公告</a></li>
+							<li><a href="">天天果园400热线系统升级恢复</a><span>new</span></li>
+						</ul>
+						<a href="#" target="_blank" class="ckgd">查看更多 ></a>
+					</div>
+				</li>
+				<li>|</li>
+				<li class="jkdh"><a href="#">券卡兑换</a></li>
+				<li>|</li>
+				<li class="pho">
+					<i class="iconfont">&#xe64d;</i>
+					<a href="#">手机果园</a>
+					<div class="download">
+						<dl>
+							<dt><span>下载果园app,</span>即享果园特价商品</dt>
+							<img src="../images/guan_ewcode2.jpg" class="erweim"/>
+							<a href="#"><img src="../images/guan_btn01.jpg"/></a>
+							<a href="#"><img src="../images/guan_btn02.jpg"/></a>
+						</dl>
+						<dl class="down">
+							<img src="../images/guan_ewcode1.jpg" class="erweim"/>
+							<dt><span>关注果园微信</span><br/>优惠信息实时掌握</dt>
+						</dl>
+					</div>
+				</li>
+				<li>|</li>
+				<li class="number">
+					<i class="iconfont">&#xf0054;</i>
+					<a href="#">400-720-077</a>
+				</li>
+			</ul>
+		</div>
+		<div id="logo">
+			<a href="../index.html" class="bgicon"></a>
+			<ul>
+				<li><a href="../index.html">首页<span>Home</span></a></li>
+				<li><a href="list.html">鲜果<span>Fruit</span></a></li>
+				<li><a href="#">生鲜<span>Fresh</span></a></li>
+				<li><a href="#">礼品<span>Gift</span></a></li>
+				<li><a href="#" class="hyzx">会员中心<span>VIP Club</span></a></li>
+			</ul>
+			<div class="right">
+				<div class="search">
+					<input type="text" id="inpt" value="西梅" />
+					<button><i class="iconfont">&#xe686;</i></button>
+					<div class="hot">热门：
+						<a href="#">奇异果</a>
+						<a href="#">苹果</a>
+						<a href="#">牛油果</a>
+						<a href="#">脐橙</a>
+					</div>
+				</div>
+				<div class="car">
+					<i class="iconfont">&#xe623;</i>
+					<span class="numb">0</span>
+					<p class="no">购物车中还没有商品，赶紧选购吧！<em></em></p>
+					<div class="have">
+						<em></em>
+						<dl>
+							<a href="html/detail.html">
+								<img src="../images/tab-tu1.jpg"/>
+								<dt>云南蒙自石榴</dt>
+								<dd>&yen;39.90/6+2个</dd>
+								<div class="num">
+									<span onselectstart="return false" class="jian">-</span>   <!--IE、谷歌阻止文本双击被选中-->
+									<input type="text" id="ipt" value="1" />
+									<span onselectstart="return false" class="jia">+</span>
+								</div>
+								<div class="delete">删除</div>
+							</a>
+						</dl>
+						<div class="shopdown">
+							<div class="allNum">
+								 共<span>1</span>件商品
+							</div>
+							<p>
+								 商品小计 <span>99.00</span>
+							</p>
+							<a href="shopCar.html">立即结算</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主要内容部分-->
+		<div id="content">
+			<div class="shop">
+				<div class="up">
+					<a href="../index.html">首页 </a>
+					<a href="#">> 新鲜水果 ></a>
+					<span>云南蒙自石榴</span>
+				</div>
+				<!--tab切换及轮播-->
+				<div id="box">
+					<ul class="block">
+						<li><img src="../images/tab-tu1.jpg"/><span class="mask"></span></li>
+						<li><img src="../images/tab-tu2.jpg"/><span></span></li>
+						<li><img src="../images/tab-tu3.jpg"/><span></span></li>
+						<li><img src="../images/tab-tu4.jpg"/><span></span></li>					
+					</ul>
+					<ul class="change">
+						<li class="one"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<!--水果价格区域-->
+				<div class="goods">
+					<div class="names">
+						<h3><span></span>云南蒙自石榴</h3>
+						<p>满满的粉色世界 口口的清甜水嫩</p>
+					</div>
+					<div class="price">
+						<div class="gyj">
+							<h5>果园价</h5>
+							<span>&yen;<m>39.90</m></span>
+							<a href="javascript:;"></a>
+						</div>
+						<div class="standard">
+							<h5>规格</h5>
+							<span>6+2个</span>
+						</div>
+						<div class="send">
+							<h5>配送至</h5>
+							<div class="Address">
+								<p class="add-city">上海</p>
+								<i class="iconfont">&#xe66e;</i>
+								<div class="pro">
+									<div class="choose">
+										<p>请选择<i></i></p>
+										<p class="choose-city">请选择<i></i></p>
+										<em></em>
+									</div>
+									<ul class="name"></ul>									
+								</div>
+							</div>
+							<span>有货</span>
+						</div>
+						<div class="num">
+							<h5>数量</h5>
+							<div class="add">
+								<span onselectstart="return false">-</span>   <!--IE、谷歌阻止文本双击被选中-->
+								<input type="text" id="ipt" value="1" />
+								<span onselectstart="return false">+</span>
+							</div>
+						</div>
+						<div class="buy">
+							<a href="#" class="now">立即购买</a>
+							<a href="shopCar.html" target="_blank" class="addsc">加入购物车</a>
+						</div>
+					</div>
+					<ul class="introduce">
+						<li>
+							<h5>甜度</h5>
+							<img src="../images/sweet-4.png"/>
+						</li>
+						<li>
+							<h5>产地</h5>
+							<span>中国</span>
+						</li>
+						<li>
+							<h5>存储方法</h5>
+							<span>0°冷藏</span>
+						</li>
+						<li>
+							<h5>备注</h5>
+							<span>单个重230-300g</span>
+						</li>
+						<li>
+							<h5>商品编号</h5>
+							<span id="goodid">2160831107</span>
+						</li>					
+					</ul>
+				</div>
+			</div>
+			<!--商品简介-->
+			<div class="brief">
+				<div class="left">
+					<ul class="left-up">
+						<li class="spjj">商品简介</li>
+						<li>顾客评论<span>(6500)</span></li>
+						<div class="addition">
+							<span></span>
+							<a href="javascript:;" class="ok">加入购物车</a>
+							<dl>
+								<div class="img"></div>					
+								<dt></dt>
+								<dd></dd>
+								<dd></dd>
+								<a href="shopCar.html" target="_blank" class="addsc">确认</a>
+							</dl>
+						</div>	
+					</ul>
+					<div class="pic">
+						<p>【温馨提示】果肉颜色会随着日照和成熟度的提高而变化。</p>
+						<img src="../images/detail-1.gif"/>
+						<img src="../images/detail-2.gif"/>
+						<img src="../images/detail-3.gif"/>
+						<img src="../images/detail-4.gif"/>
+						<img src="../images/detail-5.gif"/>
+						<img src="../images/detail-6.gif"/>
+						<img src="../images/detail-7.gif"/>
+						<img src="../images/detail-8.gif"/>
+						<img src="../images/detail-9.gif"/>
+						<img src="../images/detail-10.gif"/>
+						<img src="../images/detail-11.gif"/>
+						<img src="../images/detail-12.gif"/>
+						<img src="../images/detail-13.gif"/>
+						<img src="../images/detail-14.gif"/>
+						<img src="../images/detail-15.gif"/>
+					</div>
+					<div class="recom">
+						<div class="detail-title">
+							<div class="dleft">
+								<p>97%</p>
+								<span>好评度</span>
+							</div>
+							<ul class="dmid">
+								<li>不错呦<div><span></span></div>97%</li>
+								<li>待提高<div><span class="tg"></span></div>2%</li>
+								<li>小失落<div><span class="sl"></span></div>1%</li>
+							</ul>
+							<div class="dright">
+								<p>发布评价即可获10积分，</p>
+								<p>APP上传图片并晒单即可获得20积分，前5名可获双倍积分。</p>
+							</div>
+						</div>
+						<div class="detail-user">
+							<div class="head">
+								<ul class="all">
+									<li>
+										<em class="dot"></em>
+										<div>
+											全部评论(<span>6500</span>)
+										</div>
+									</li>
+									<li>
+										<em></em>
+										<div>
+											 不错呦(<span>6234</span>)
+										</div>
+									</li>
+									<li>
+										<em></em>
+										<div>
+											 待提高(<span>120</span>)
+										</div>
+									</li>
+									<li>
+										<em></em>
+										<div>
+											 小失落(<span>50</span>)
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="pingl">
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="user-say">
+									<div class="uleft">
+										<img src="../images/comment-1.png"/>
+										<p>138****3020</p>
+									</div>
+									<div class="uright">
+										<ul>
+											<li>
+												<strong>评分</strong>
+												<div>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</li>
+											<li>
+												<strong>内容</strong>
+												<h5>酸酸甜甜 真好吃</h5>
+											</li>
+											<li class="time1">
+												<span class="data">2016-09-23 10:06:48</span>
+											</li>
+											<li class="reply">
+												<strong>回复</strong>
+												<h5>感谢亲的评论，我们会继续努力的！</h5>
+											</li>
+											<li class="time2">
+												<span class="data">2016-09-23 11:06:40</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tail">
+							<ul>
+								<li><a href="javascript:;">&lt; 首页</a></li>
+								<li><a href="javascript:;">上一页</a></li>
+								<li class="page">
+									<a href="javascript:;" class="selected">1</a>
+									<a href="javascript:;">2</a>
+									<a href="javascript:;">3</a>
+								</li>
+								<li><a href="javascript:;">下一页</a></li>
+								<li><a href="javascript:;">最后一页 &gt;</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<h4>最近浏览过</h4>
+					<dl>
+						<img src="../images/sl.jpg"/>
+						<dt>云南蒙自石榴</dt>
+						<dd>&yen;39.90 / 6+2个</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div id="later">
+			<ul>
+				<li class="li_one"></li>
+				<li class="li_two"></li>
+				<li class="li_three"></li>
+				<li class="li_four"></li>
+			</ul>
+		</div>
+		<div id="bottom">
+			<div class="left">
+				<img src="../images/guan_tel.png"/>
+				<p><span>服务时间：</span>08:00 - 22:00</p>
+			</div>
+			<div class="middle">
+				<div class="ll">
+					<img src="../images/guan_ewcode1.jpg"/>
+					<span>天天果园官方微信</span>
+				</div>
+				<div class="rr">
+					<img src="../images/guan_ewcode2.jpg"/>
+					<span>天天果园APP</span>
+				</div>
+			</div>
+			<div class="right">
+				<dl>
+					<dt>购物指南</dt>
+					<dd><a href="#">新用户注册</a></dd>
+					<dd><a href="#">在线下单</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt>配送说明</dt>
+					<dd><a href="#">新用户注册</a></dd>
+					<dd><a href="#">在线下单</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="#">新用户注册</a></dd>
+					<dd><a href="#">在线下单</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt>企业服务</dt>
+					<dd><a href="#">新用户注册</a></dd>
+					<dd><a href="#">在线下单</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div id="footer">
+			<p class="copy">版权所有 &copy; 2015天天果园 保留所有权利 | 沪ICP备12042163</p>
+			<p class="day">天天果园 鲜果网购</p>
+			<div class="guanfang">
+				<a href="#">
+					<img src="../images/guan_shgs.gif"/>
+				</a>
+				<a href="#" class="ping">
+					<img src="../images/guan_wgdjp.png"/>
+				</a>
+			</div>
+			<div class="fix">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.12.4.js"></script>
+	<script src="../js/topEvent.js"></script>
+	<script src="../js/pakageCookie.js"></script>
+	
+	<script src="../js/detail.js"></script>
+	<script src="../js/top-address.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,492 @@
+body,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;font-family:  "Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+ul,li{list-style:none;}
+img,fieldset,input{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:14px; }
+input,a{outline:none;}
+
+
+#top{
+	width: 100%;
+	height: 30px;
+	background: #eee;
+	font-size: 12px;
+}
+#top .address{
+	height: 30px;  
+	position: relative; 
+	float: left;	
+}
+#top .address i{
+	margin: 6px 6px 0 6px;
+	float: left;
+	color: #64A131;
+}
+#top .address span{
+	display: block;
+	width: 0;
+	height: 0;
+	float: left;
+	margin: 12px 0 0 5px;
+	border-top: 8px solid #999999;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+}
+#top .address .selt{
+	line-height: 30px; 
+	float: left;
+	color: #999;
+}
+#top .address .add{
+	display: none;
+	width: 295px;
+	height: 380px; 
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 10;
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	background: #fff;
+	overflow: hidden;
+	overflow-y: scroll;
+	-moz-box-shadow: 5px 5px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 5px 5px 10px #909090;/*safari或chrome*/
+	box-shadow:5px 5px 10px #909090;/*opera或ie9*/
+}
+#top .address .add p{
+	width: 100%;
+	line-height: 30px;	
+	color: #999;
+	float: left;
+}
+#top .address .add .city{	
+	width: 268px;
+	padding: 8px 5px;
+	height: 30px;
+	background: #F1F1F1;
+	float: left;
+}
+#top .address .add .city a{
+	margin:8px 0 0 10px;
+	color: #555;
+	float: left;
+}
+#top .address .add .city a:hover{
+	color:#64A131 ;
+	border-bottom: 1px solid #64A131 ;
+}
+#top .address .add .citys{	
+	width: 268px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#top .address .add .citys li{
+	width: 100%;
+	padding-top: 5px;
+	border-bottom: 1px solid #eee;
+}
+#top .address .add .citys>li:hover{
+	background: #F1F1F1;	
+	color: #67A235;	
+}
+#top .address .add .citys li:hover a,#top .address .add .citys li:hover i{
+	color: #67A235;
+}
+#top .address .add .citys li a{
+	display: inline-block;
+	padding: 5px 10px;
+	line-height: 24px;
+	color: #555;
+	font-size: 14px;
+}
+#top .address .add .citys li i{
+	margin: 10px 10px 0 0;
+	color: #999;
+	float: right;
+}
+#top .address .add .citys li .rotate{
+	transform: rotate(90deg);
+}
+#top .address .add .citys li .ball{
+	width: 100%;
+	height: auto;
+	display: none;
+	background: #fff;
+	
+	overflow: hidden;
+}
+#top .address .add .citys li .ball .end{
+	width: 100%;
+	font-size: 14px;
+	color: #555;
+	padding:10px 20px;	
+	border-top: 1px dashed #eee;
+	border-bottom: 0;
+}
+#top .address .add .citys li .ball .end:hover{
+	color:#67A235;
+}	
+#top .by{
+	line-height: 30px; 
+	float: left;
+	color: #999;
+	padding-left:8px;
+}
+#top .xyd{
+	margin-top: 8px; 
+	float: left;
+	color: #64A131;
+}
+#top .xyd:hover{
+	border-bottom: 1px solid #64A131;
+}
+#top .nav{
+	height: 30px; 
+	float: right;
+}
+#top .nav li{
+	float: left;
+	line-height: 30px;
+	padding: 0 10px;
+	color: #999;
+}
+#top .nav li a{
+	color: #999;
+}
+#top .nav .first a,.jkdh a{
+	margin-top: 8px;
+}
+#top .nav .first .exit{
+	display: none;
+}
+#top .nav .first a:hover,#top ul .jkdh a:hover{
+	border-bottom: 1px solid #F6AA00;
+	color: #F6AA00;
+}
+#top .nav .gygg{
+	position: relative;
+}
+#top .nav .gygg .more{
+	display: none;
+	width: 245px;
+	height: 160px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index:10;
+	background: #fff;
+	-moz-box-shadow: 0px 5px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 0px 5px 10px #909090;/*safari或chrome*/
+	box-shadow:0px 5px 10px #909090;/*opera或ie9*/
+}
+#top .nav .gygg .ad{
+	float: left;
+	height: 120px;
+}
+#top .nav .gygg .ad>li{
+	width: 217px;
+	line-height: 40px;
+	padding: 0;
+	border-bottom: 1px dashed #ddd;
+	margin-left: 13px;
+}
+#top .nav .gygg .ad li a{
+	float: left;
+	color: #000;
+	width: 161px;
+	overflow: hidden;
+	white-space: nowrap;	
+	text-overflow: ellipsis;
+}
+#top .nav .gygg .ad li a:hover{
+	color:#64A131 ;
+}
+#top .nav .gygg .ad li span{
+	margin-left: 3px;
+	color: #fff;
+	background: #F53030;
+	border-radius: 3px;
+	float: left;
+	line-height: 18px;
+	padding: 0 8px;
+	margin-top: 13px;
+}
+#top .nav .gygg .more .ckgd{
+	margin:8px 0 0 90px;
+	float: left;
+	color: #64A131;
+}
+#top .nav .pho{
+	position: relative;
+}
+#top .nav .pho i{
+	color: #64A131;
+	margin-top: 5px;
+}
+#top .nav .pho .download{
+	display: none;
+	width: 291px;
+	height: 291px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index: 20;
+	background: #fff;
+	-moz-box-shadow: 0px 5px 10px #909090;/*firefox*/
+	-webkit-box-shadow: 0px 5px 10px #909090;/*safari或chrome*/
+	box-shadow:0px 5px 10px #909090;/*opera或ie9*/
+}
+#top .nav .number{
+	font-weight: 900;
+}
+#top .nav .number i{
+	color: #64A131;
+	font-size: 14px;
+	margin-left: -7px;
+}
+#top .nav .pho .download dl{
+	width: 265px;
+	height: 145px;
+	margin-left: 15px;
+}
+#top .nav .pho .download dl dt{
+	color: #000;
+	line-height: 25px;
+	margin:15px 0 0 55px;
+}
+#top .nav .pho .download dl dt span{
+	color: #64A131;
+}
+#top .nav .pho .download dl .erweim{
+	width: 100px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+}
+#top .nav .pho .download dl a{
+	display: block;
+}
+#top .nav .pho .download dl a img{
+	width: 146px;
+	height: 36px;
+	margin: 10px 0 0 15px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+}
+#top .nav .pho .download .down{
+	width: 265px;
+	height: 133px;
+	border-top: 1px solid #ddd;
+}
+#top .nav .pho .download .down img{
+	margin-top: 15px;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#top .nav .pho .download .down dt{
+	margin: 44px 0 0 15px;
+	line-height: 23px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+#later{
+	width: 100%;
+}
+#later ul{
+	overflow: hidden;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+#later ul li{
+	display: inline-block;
+	width: 24%;
+	height: 60px;
+	padding: 0 5px;
+	float: left;
+	border-right: 1px solid #ddd;
+	background: url(../images/icon.png) no-repeat center;
+}
+#later ul .li_one{	
+	background-position: 40px 0;
+}
+#later ul .li_two{
+	background-position: 40px -60px;
+}
+#later ul .li_three{
+	background-position: 40px -120px;
+}
+#later ul .li_four{
+	background-position: 40px -180px;
+	border: 0;
+}
+
+
+#bottom{
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+	min-height: 150px;
+	height: auto !important;
+	overflow: hidden;
+}
+#bottom .left{
+	width: 320px;
+	height: 145px;
+	background: url(../images/login_17.png) no-repeat top;
+	margin-left: 87px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+}
+#bottom .left img{
+	width: 159px;
+	height: 21px;
+	margin: 83px 0 0 85px;
+	float: left;
+}
+#bottom .left p{
+	width: 203px;
+	height: 21px;
+	font-size: 18px;
+	margin: 10px 0 0 65px;
+	color: #555;
+	float: left;
+}
+#bottom .left p span{
+	font-size: 18px;
+	color: #999;
+	float: left;
+}
+#bottom .middle{
+	width: 310px;
+	height: 170px;
+	margin-left: 80px;
+	float: left;
+}
+#bottom .middle .ll{
+	width: 130px;
+	height: 160px;
+	float: left;
+}
+#bottom .middle .rr{
+	width: 130px;
+	height: 160px;
+	float: right;
+}
+#bottom .middle .ll img,#bottom .middle .rr img{
+	width: 130px;
+	height: 130px;
+}
+#bottom .middle .ll span,#bottom .middle .rr span{
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color: #999;
+}
+#bottom .right{
+	float: right;
+}
+#bottom .right dl{
+	width: 102px;
+	height: 150px;
+	float: left;
+}
+#bottom .right dl dt{
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 35px;
+}
+#bottom .right dl dd{
+	height: 30px;
+}
+#bottom .right dl dd a{
+	line-height: 30px;
+	color: #999;
+}
+#bottom .right dl dd a:hover{
+	border-bottom: 1px solid #64A131;
+	color: #64A131;
+}
+
+
+#footer{
+	width: 100%;
+	text-align: center;
+}
+#footer .copy{
+	color: #999;
+}
+#footer .day{
+	color: #64A131;
+	margin: 8px 0;
+}
+#footer .guanfang{
+	width: 100px;
+	height: 120px;
+	margin: 0 auto;
+}
+#footer .guanfang a{
+	display: block;
+	float: left;
+}
+#footer .guanfang a img{
+	width: 47px;
+	height: 47px;
+}
+#footer .guanfang .ping{
+	float: right;
+}
+#footer .guanfang .ping img{
+	width: 35px;
+	height: 45px;
+}
+#footer .fix{
+	width: 35px;
+	height: 110px;
+	background: url(../images/kf.png) no-repeat;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 20;
+}
+#footer .fix a{
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 2px;	
+	z-index: 22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,425 @@
+#logo{
+	width: 100%;
+	height: 123px;
+	background: url(../images/login_17.png) no-repeat 5px 22px;
+	-moz-box-shadow: 0 1px 10px #ccc;/*firefox*/
+	-webkit-box-shadow: 0 1px 10px #ccc;/*safari或chrome*/
+	box-shadow:0 1px 10px #ccc;/*opera或ie9*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#cccccc')";  /* For IE 8 */
+}
+#logo .bgicon{
+	width: 290px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+#logo ul{
+	width: 352px;
+	height: 57px;
+	float: right;
+	position: relative;
+	margin: 24px 15px 0 0;
+	background: url(../images/icons.png) no-repeat -39px -887px;
+}
+#logo ul li{
+	height: 57px;
+	float: left;
+	text-align: center;
+	position: absolute;
+	top: 7px;
+	margin-right: 57px;
+}
+#logo ul .myself{
+	left: -11px;
+}
+#logo ul .ok{
+	left: 140px;
+}
+#logo ul .sub{
+	margin-right: 0;
+	right: -15px;
+}
+#logo ul li span{
+	color: #fff;
+	font-size: 20px;
+}
+#logo ul li div{
+	font-size: 12px;
+	margin-top:13px ;
+}
+#logo ul .myself div{
+	color: #64A131;
+}
+
+
+
+#content{
+	width: 100%;
+	overflow: hidden;
+	min-height: 150px;
+	height: auto !important;
+}
+#content .myCar{
+	width: 1000px;
+	margin: 0 auto;
+}
+#content .myCar .car-up{
+	width: 100%;
+	margin-top: 50px;
+	overflow: hidden;
+	background: url(../images/icons.png) no-repeat -525px -330px;
+}
+#content .myCar .car-up p{
+	float: left;
+	font-size: 20px;
+	color: #555;
+	line-height: 27px;
+	margin-left: 37px;
+}
+#content .myCar .car-up a{
+	color: #64A131;
+	float: right;
+	padding-top: 10px;
+}
+#content .myCar .car-up a:hover{
+	text-decoration: underline;
+}
+#content .myCar .classType{
+	width: 100%;
+	margin-top: 14px;
+	border: 1px solid #ccc;
+}
+#content .myCar .classType .type{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #999;
+	background: #F1F1F1;
+	border-bottom: 1px solid #ccc;
+}
+#content .myCar .classType .type div{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 21px;
+	float: left;
+}
+#content .myCar .classType .type div input{
+	margin-top: 10px;
+}
+#content .myCar .classType .type li{
+	width: 63px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+#content .myCar .classType .type .li_one{
+	margin-left: 70px;
+}
+#content .myCar .classType .type .li_two{
+	margin-left: 212px;
+}
+#content .myCar .classType .type .li_three{
+	margin-left: 50px;
+}
+#content .myCar .classType .type .li_four{
+	margin-left: 36px;
+}
+#content .myCar .classType .type .li_five{
+	margin-left: 64px;
+}
+#content .myCar .classType .type .li_six{
+	margin-left: 55px;
+}
+#content .good_con{
+	overflow: hidden;
+	min-height: 100px;
+	height: auto !important;
+	text-align: center;
+}
+#content .myCar .classType .type-detail{
+	width: 100%;
+	line-height: 50px;
+	color: #555;
+	overflow: hidden;
+	border-bottom: solid 1px #ccc;
+}
+#content .myCar .classType .type-detail div{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 52px;
+	float: left;
+}
+#content .myCar .classType .type-detail div input{
+	margin-top: 10px;
+}
+#content .myCar .classType .type-detail li{
+	width: 63px;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+#content .myCar .classType .type-detail .li_one{
+	width: 210px;
+	margin:20px 0 10px 0;
+	position: relative;
+}
+#content .myCar .classType .type-detail .li_one dl{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+#content .myCar .classType .type-detail .li_one dl a{
+	width: 110px;
+	height: 110px;
+	float: left;
+	display: block;
+}
+#content .myCar .classType .type-detail .li_one dl a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#content .myCar .classType .type-detail .li_one dl dt{
+	float: right;
+	margin-top: -5px;
+}
+#content .myCar .classType .type-detail .li_one dl dd{
+	color: #fff;
+	line-height: 15px;
+	padding: 4px 5px;
+	font-size: 12px;
+	background: #FF5353;
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+#content .myCar .classType .type-detail .li_two{
+	margin-left: 160px;
+}
+#content .myCar .classType .type-detail .li_three{
+	margin-left: 50px;
+	color: #64A131;
+	font-weight: bold;
+}
+#content .myCar .classType .type-detail .li_four{
+	overflow: hidden;
+	height: 24px;
+	width: 93px;
+	margin:15px 0 0 36px;
+	border: 1px solid #ddd;
+	border-radius: 1px;
+}
+#content .myCar .classType .type-detail .li_four span{
+	display: inline-block;
+	width: 28px;
+	height: 24px;
+	color: #a6a6a6;
+	background: #eee;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	-moz-user-select:none;   /*火狐--阻止文本双击被选中*/
+}
+#content .myCar .classType .type-detail .li_four .more{
+	float: right;
+}
+#content .myCar .classType .type-detail .li_four input{
+	width: 35px;
+	height: 22px;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+}
+#content .myCar .classType .type-detail .li_five{
+	margin-left: 29px;
+	color: #64A131;
+	font-weight: bold;
+}
+#content .myCar .classType .type-detail .li_six{
+	margin-left: 55px;
+	cursor: pointer;
+}
+#content .myCar .down{
+	width: 100%;
+	height: 48px;
+	background: #fff9eb;
+	border-top: 1px solid #ccc;
+}
+#content .myCar .down p{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #64A131;
+	color: #fff;
+	border-radius: 4px;
+	margin: 14px 0 0 51px;
+}
+#content .myCar .down a{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	color: #64A131;
+	margin: 14px 0 0 17px;
+}
+#content .myCar .down a:hover{
+	text-decoration: underline;
+}
+#content .myCar .account{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 24px;
+	color: #999;
+	background: #f5ffed;
+	border: 1px solid #64A131;
+}
+#content .myCar .account .js{
+	height: 50px;
+	float: right;
+}
+#content .myCar .account .js p{
+	float: left;
+}
+#content .myCar .account .js p span{
+	color: #64A131;
+	font-weight: bold;
+}
+#content .myCar .account .js .money{
+	float: left;
+	color: #64A131;
+	margin-left: 28px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#content .myCar .account .js a{
+	width: 150px;
+	height: 50px;
+	float: right;
+	color: #fff;
+	margin-left: 15px;
+	font-size: 20px;
+	background: #64A131;
+	text-align: center;
+}
+#content .myCar .look{
+	width: 100%;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+#content .myCar .look .look-up{
+	width: 100%;
+	color: #555;
+	height: 63px;
+	font-size: 16px;
+}
+#content .myCar .look .look-up p{
+	height: 100%;
+	line-height: 63px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+#content .myCar .look .look-up .recent{
+	border-bottom: 1px solid #64A131;
+}
+#content .myCar .look .look-up .recent span{
+	padding:5px 10px;
+	border-right: 1px solid #ccc;
+}
+#content .myCar .look .recent-look{
+	width: 998px;
+	height: 266px;
+	position: relative;
+	border: 1px solid #ddd;
+}
+#content .myCar .look .recent-look ul{
+	width: 90%;
+	height: 266px;
+	margin: 0 auto;
+}
+#content .myCar .look .recent-look ul li{
+	width: 166px;
+	margin: 22px 9px;
+	float: left;
+}
+#content .myCar .look .recent-look ul li:hover{
+	-moz-box-shadow: 0 1px 10px #ccc;/*firefox*/
+	-webkit-box-shadow: 0 1px 10px #ccc;/*safari或chrome*/
+	box-shadow:0 1px 10px #ccc;/*opera或ie9*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#cccccc')";  /* For IE 8 */
+}
+#content .myCar .look .recent-look ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#content .myCar .look .recent-look ul li a em{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#content .myCar .look .recent-look ul li a em img{
+	width: 100%;
+	vertical-align: middle;
+}
+#content .myCar .look .recent-look ul li a p{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#content .myCar .look .recent-look ul li a span{
+	display: block;
+	width: 100%;
+	color: #b0b0b0;
+	margin: 3px 0;
+}
+#content .myCar .look .recent-look div{
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	top: 130px;
+	cursor: pointer;
+}
+#content .myCar .look .recent-look .prev{
+	left: 12px;
+	background: url(../images/icons.png) no-repeat -127px -155px;
+}
+#content .myCar .look .recent-look .prev:hover{
+	background: url(../images/icons.png) no-repeat -156px -187px;
+}
+#content .myCar .look .recent-look .next{
+	right: 12px;
+	background: url(../images/icons.png) no-repeat -127px -225px;
+}
+#content .myCar .look .recent-look .next:hover{
+	right: 12px;
+	background: url(../images/icons.png) no-repeat -127px -187px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

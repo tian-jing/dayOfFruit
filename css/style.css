@@ -1,0 +1,513 @@
+#logo {
+    width: 100%;
+    height: 123px;
+    background: url(../images/login_17.png) no-repeat 5px 22px;
+}
+
+#logo .bgicon {
+    width: 290px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+#logo ul {
+    height: 80px;
+    margin: 20px 0 0 50px;
+    float: left;
+}
+
+#logo ul li {
+    float: left;
+    position: relative;
+}
+
+#logo ul .now-page {
+    color: #64a131;
+}
+
+#logo ul .now-page em {
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    left: 5%;
+    bottom: -21px;
+    background: #64A131;
+}
+
+#logo ul li a {
+    display: block;
+    color: #999;
+    margin: 20px 0;
+    line-height: 20px;
+    padding: 0 25px;
+    border-right: 1px solid #eee;
+}
+
+#logo ul li a:hover {
+    background: #eee;
+}
+
+#logo ul li .hyzx {
+    border: 0;
+}
+
+#logo ul li a span {
+    display: block;
+    text-align: center;
+}
+
+#logo .right {
+    float: right;
+    color: #333;
+    margin-top: 22px;
+}
+
+#logo .right .search {
+    float: left;
+    width: 185px;
+    margin-top: 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+#logo .right .search input {
+    width: 80%;
+    padding: 5px 3px;
+}
+
+#logo .right .search button {
+    width: 20%;
+    background: none;
+    padding: 2px 6px;
+    border: none;
+    float: left;
+    letter-spacing: normal;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#logo .right .search button i {
+    font-size: 20px;
+    color: #64a131;
+}
+
+#logo .right .search .hot {
+    width: 100%;
+    padding: 0 3px;
+    border-top: 1px solid #999;
+    color: #999;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#logo .right .search .hot a {
+    padding-right: 5px;
+    color: #999;
+    display: inline-block;
+}
+
+#logo .right .car {
+    float: right;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+    margin: 20px 0 0 15px;
+    position: relative;
+    line-height: normal;
+    cursor: pointer;
+    background: url(../images/icons.png) no-repeat;
+    background-position: -35px -887px;
+}
+
+#logo .right .car i {
+    font-size: 26px;
+    line-height: 30px;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+#logo .right .car .numb {
+    width: 20px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    top: 4px;
+    left: 14px;
+}
+
+#logo .right .car p em,
+#logo .right .car .have em {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    z-index: 11;
+    border-bottom: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+#logo .right .car .no {
+    display: none;
+    position: absolute;
+    top: 78px;
+    right: 0;
+    width: 310px;
+    color: #999;
+    text-align: center;
+    max-height: 410px;
+    padding: 15px 0 15px 15px;
+    background: #fff;
+    box-shadow: 0 0 45px rgba(175, 175, 175, 0.75);
+    z-index: 11;
+}
+
+#logo .right .car .have {
+    display: none;
+    position: absolute;
+    top: 78px;
+    right: 0;
+    width: 310px;
+    max-height: 410px;
+    padding: 15px 0 15px 15px;
+    background: #fff;
+    box-shadow: 0 0 45px rgba(175, 175, 175, 0.75);
+    z-index: 11;
+}
+
+#logo .right .car .have dl {
+    max-height: 290px;
+    overflow: auto;
+    padding: 0 15px 15px 0;
+    margin-bottom: 0;
+    border-bottom: 1px dashed #ddd
+}
+
+#logo .right .car .have dl a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#logo .right .car .have dl a img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: left;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#logo .right .car .have dl a dt,
+#logo .right .car .have dl a dd {
+    width: 200px;
+    float: left;
+    color: #999;
+    margin: 3px 0 0 10px;
+    font-weight: 500;
+}
+
+#logo .right .car .have dl a .num {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    margin: 10px 0 0 15px;
+}
+
+#logo .right .car .have dl a .num span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    background: #eee;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    ;
+    -moz-user-select: none;
+    /*火狐--阻止文本双击被选中*/
+}
+
+#logo .right .car .have dl a .num .jian {
+    left: 0;
+}
+
+#logo .right .car .have dl a .num .jia {
+    left: 40px;
+}
+
+#logo .right .car .have dl a .num input {
+    width: 35px;
+    height: 18px;
+    margin-left: 12px;
+    line-height: 18px;
+    text-align: center;
+    float: left;
+}
+
+#logo .right .car .have dl a .delete {
+    margin: 10px 5px 0 0;
+    color: #555;
+    float: right;
+}
+
+#logo .right .car .have .shopdown {
+    margin: 15px 15px 0 0;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+#logo .right .car .have .shopdown .allNum {
+    margin-top: 4px;
+    float: left;
+    color: #555;
+    position: relative;
+}
+
+#logo .right .car .have .shopdown .allNum span {
+    color: #64a131;
+    padding: 0 3px;
+}
+
+#logo .right .car .have .shopdown p {
+    color: #555;
+    float: right;
+}
+
+#logo .right .car .have .shopdown p span {
+    font-size: 16px;
+    color: #64a131;
+}
+
+#logo .right .car .have .shopdown a {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    margin-top: 10px;
+    background: #64a131;
+    font-size: 22px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*轮播图*/
+
+#turn {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#turn #pic {
+    width: 15000px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#turn #pic li {
+    height: 400px;
+    float: left;
+}
+
+#turn #pic li img {
+    width: 100%;
+    height: 100%;
+}
+
+#turn .dot {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+}
+
+#turn .dot li {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #64A131;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#turn .dot .active {
+    background: #64A131;
+}
+
+#main {
+    width: 100%;
+    margin: 10px 0 50px 0;
+}
+
+#main ul {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main ul li {
+    float: left;
+    margin-right: 21px;
+}
+
+#main ul .last {
+    margin-right: 0;
+}
+
+#main ul li a {
+    display: block;
+    width: 300px;
+    height: 140px;
+}
+
+#main ul li a img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    width: 100%;
+    overflow: hidden;
+}
+
+#content .fruit {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#content .fruit .fruitimg {
+    width: 98%;
+    height: 44px;
+    margin: 0 auto;
+    padding: 15px 0 10px 0;
+    line-height: 42px;
+    color: #333;
+    font-family: 'micosoft yahei';
+    border-top: 1px solid #ccc;
+}
+
+#content .fruit .fruitimg img {
+    float: left;
+}
+
+#content .fruit .fruitimg .more {
+    float: right;
+}
+
+#content .fruit .fruit-list {
+    margin: 0 auto;
+}
+
+#content .fruit .fruit-list ul {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#content .fruit .fruit-list ul li {
+    width: 244px;
+    height: 305px;
+    margin: 0 5px 5px;
+    position: relative;
+    float: left;
+}
+
+#content .fruit .fruit-list ul .left {
+    margin-left: 3px;
+}
+
+#content .fruit .fruit-list ul .right {
+    margin-right: 0;
+}
+
+#content .fruit .fruit-list ul li dl {
+    width: 100%;
+    height: 100%;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#content .fruit .fruit-list ul li dl a {
+    display: block;
+    margin-bottom: 5px;
+    width: 244px;
+    height: 244px;
+    overflow: hidden;
+}
+
+#content .fruit .fruit-list ul li dl a img {
+    width: 100%;
+    height: 100%;
+}
+
+#content .fruit .fruit-list ul li dl dt {
+    max-width: 210px;
+    padding-left: 2px;
+    color: #555;
+}
+
+#content .fruit .fruit-list ul li dl dd {
+    padding-left: 5px;
+    color: #999;
+}
+
+#content .fruit .fruit-list ul li span {
+    display: block;
+    text-align: center;
+    padding: 6px 5px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #65A032;
+}
+
+#content .fruit .fruit-list ul li .red {
+    background: #FF5353;
+}
+
+#content .fruit .fruit-list ul li .bao {
+    background: #46BABB;
+}
+
+#content .fruit .fruit-list ul li .addCar {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    background: url(../images/icons.png) no-repeat;
+    background-position: -517px -243px;
+}

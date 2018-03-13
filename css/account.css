@@ -1,0 +1,371 @@
+#logo{
+	width: 100%;
+	height: 123px;
+	background: url(../images/login_17.png) no-repeat 5px 22px;
+	-moz-box-shadow: 0 1px 10px #ccc;/*firefox*/
+	-webkit-box-shadow: 0 1px 10px #ccc;/*safari或chrome*/
+	box-shadow:0 1px 10px #ccc;/*opera或ie9*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#cccccc')";  /* For IE 8 */
+}
+#logo .bgicon{
+	width: 290px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+#logo ul{
+	width: 352px;
+	height: 57px;
+	float: right;
+	position: relative;
+	margin: 24px 15px 0 0;
+	background: url(../images/icons.png) no-repeat -39px -945px;
+}
+#logo ul li{
+	height: 57px;
+	float: left;
+	text-align: center;
+	position: absolute;
+	top: 7px;
+	margin-right: 57px;
+}
+#logo ul .myself{
+	left: -11px;
+}
+#logo ul .ok{
+	left: 140px;
+}
+#logo ul .sub{
+	margin-right: 0;
+	right: -15px;
+}
+#logo ul li span{
+	color: #fff;
+	font-size: 20px;
+}
+#logo ul li div{
+	font-size: 12px;
+	margin-top:13px;
+}
+#logo ul .myself div,#logo ul .ok div{
+	color: #64A131;
+}
+
+
+
+
+#content{
+	width: 100%;
+	min-height: 150px;
+	height: auto !important; 
+	margin-bottom: 40px;
+}
+#content .information{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0 20px 0;
+}
+#content .information h3{
+	width: 100%;
+	color: #555;
+	line-height: 24px;
+	font-size: 20px;
+}
+#content .information h3 i{
+	font-size: 22px;
+	margin-right: 5px;
+}
+#content .information h4{
+	width: 100%;
+	color: #555;
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	border-top: 1px solid #ddd;
+}
+#content .information h4 a{
+	font-size: 14px;
+	color: #5157a6;
+	float: right;
+}
+#content .information h4 a:hover{
+	color: #F6AB00;
+	text-decoration: underline;
+}
+#content .information .newAdd{
+	width: 100%;
+	margin: 20px 0;
+}
+#content .information .newAdd .more{
+	width: 140px;
+	font-weight: bold;
+	cursor: pointer;
+	padding-right: 20px;
+	margin-left: 32px;
+}
+#content .information .newAdd .more span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	background: url(../images/addr.png) no-repeat 0 0;
+}
+#content .information .pay{
+	width: 100%;
+	height: 50px;
+	padding-left: 30px;
+}
+#content .information .pay div{
+	width: 140px;
+	height: 36px;
+	margin: 10px 15px 0 0;
+	border: 1px solid #ddd;
+	line-height: 34px;
+	float: left;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+#content .information .pay .paying{
+	background: #f5ffed;
+	border: 2px solid #64A131;
+}
+#content .information .pay .zf .pay-type{
+	display: none;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: -30%;
+	padding: 5px 10px;
+	background: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 4px;
+	z-index: 10;
+	-moz-box-shadow: 0 7px 7px #ccc;/*firefox*/
+	-webkit-box-shadow: 0 7px 7px #ccc;/*safari或chrome*/
+	box-shadow:0 7px 7px #ccc;/*opera或ie9*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#cccccc')";  /* For IE 8 */
+}
+#content .information .pay .zf ul span{
+	display: block;
+	width: 200px;
+	position: absolute;
+	top: -21px;
+	left: 100px;
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #f1f1f1;
+	border-top: 10px solid transparent;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+#content .information .pay .zf ul li{
+	height: 36px;
+	line-height: 36px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 5px;
+}
+#content .information .pay .zf ul .paying{
+	background: #f5ffed;
+	border: 2px solid #64A131;
+}
+#content .information .order{
+	width: 100%;
+	overflow: hidden;
+}
+#content .information .order .order-left{
+	width: 400px;
+	margin: 25px 0 0 30px;
+	float: left;
+}
+#content .information .order .order-left h5{
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 0 0 25px;
+	float: left;
+	font-size: 14px;
+	border-bottom:1px solid #ddd;
+}
+#content .information .order .order-left .bz{
+	border-bottom:0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#content .information .order .order-left h5 p{
+	color: #999;
+	margin-right: 10px;
+	float: left;
+}
+#content .information .order .order-left h5 span{
+	color: #999;
+	margin-left: 10px;
+	float: left;
+}
+#content .information .order .order-left h5 a{
+	color: #5157a6;
+	float: right;
+}
+#content .information .order .order-left h5 a:hover{
+	color: #F6AB00;
+	text-decoration: underline;
+}
+#content .information .order .order-left h5 textarea{
+	width: 310px;
+	min-height: 60px;
+	height: auto;
+	resize: none;    /*去除textarea的右下角的东西*/
+	float: right;
+	margin-top: -20px;
+	padding: 6px 12px;
+	color: #555;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+#content .information .order .order-left h5 div{
+	color: #999;
+	float: left;
+	margin-top: 35px;
+}
+#content .information .order .order-left h5 div span{
+	color: #64A131;
+	float: right;
+}
+#content .information .order .order-right{
+	width: 485px;
+	margin-top: 25px;
+	float: right;
+	border-bottom: 1px solid #ddd;
+}
+#content .information .order .order-right dl{
+	width: 100%;
+	margin-top: 25px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+#content .information .order .order-right dl div{
+	width: 80px;
+	height: 80px;
+	float: left;
+ 	margin-right: 15px;
+}
+#content .information .order .order-right dl div img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#content .information .order .order-right dl dt{
+	width: 390px;
+	padding-top: 2px;
+	color: #555;
+	float: left;
+}
+#content .information .order .order-right dl dd{
+	width: 390px;
+	padding-top: 5px;
+	color: #999;
+	float:left ;
+}
+#content .information .order .order-right dl dd span{
+	display: inline-block;
+	color: #999;
+	margin-left: 40px;
+}
+#content .information .jf{
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#content .information .jf div{
+	margin-top: 20px;
+	width: 100%;
+	padding-left: 20px;
+}
+#content .information .jf div p{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+#content .information .jf div p input{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	margin: 0 6px;
+	padding-right: 12px;
+	text-align: right;
+	color: #64A131;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+#content .information .jf div p a{
+	display: inline-block;
+	color: #5157a6;
+	margin-left: 50px;
+}
+#content .information .jf div p a:hover{
+	color: #F6AB00;
+	text-decoration: underline;
+}
+#content .information .type-money{
+	width: 100%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+#content .information .type-money li{
+	text-align: right;
+	color: #999;
+	margin-bottom: 10px;
+}
+#content .information .type-money li span{
+	display: inline-block;
+    min-width: 70px;
+    margin-left: 10px;
+    color: #555;
+}
+#content .information .account{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 24px;
+	background: #f5ffed;
+	border: 1px solid #64A131;
+}
+#content .information .account .js{
+	width: 340px;
+	height: 50px;
+	float: right;
+}
+#content .information .account .js p{
+	color: #555;
+	float: left;
+}
+#content .information .account .js .money{
+	float: left;
+	color: #64A131;
+	margin-left: 28px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#content .information .account .js a{
+	width: 150px;
+	height: 50px;
+	float: right;
+	color: #fff;
+	font-size: 20px;
+	background: #64A131;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

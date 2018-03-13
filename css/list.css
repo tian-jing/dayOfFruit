@@ -1,0 +1,405 @@
+#logo {
+    width: 100%;
+    height: 123px;
+    background: url(../images/login_17.png) no-repeat 5px 22px;
+    -moz-box-shadow: 0 1px 10px #ccc;
+    /*firefox*/
+    -webkit-box-shadow: 0 1px 10px #ccc;
+    /*safari或chrome*/
+    box-shadow: 0 1px 10px #ccc;
+    /*opera或ie9*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#cccccc')";
+    /* For IE 8 */
+}
+
+#logo .bgicon {
+    width: 290px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+#logo ul {
+    height: 80px;
+    margin: 20px 0 0 50px;
+    float: left;
+}
+
+#logo ul li {
+    float: left;
+    position: relative;
+}
+
+#logo ul .now-page a,
+.now-page span {
+    color: #64a131;
+}
+
+#logo ul .now-page em {
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    left: 5%;
+    bottom: -21px;
+    background: #64A131;
+}
+
+#logo ul li a {
+    display: block;
+    color: #999;
+    margin: 20px 0;
+    line-height: 20px;
+    padding: 0 25px;
+    border-right: 1px solid #eee;
+}
+
+#logo ul li a:hover {
+    background: #eee;
+}
+
+#logo ul li .hyzx {
+    border: 0;
+}
+
+#logo ul li a span {
+    display: block;
+    text-align: center;
+}
+
+#logo .right {
+    float: right;
+    color: #333;
+    margin-top: 22px;
+}
+
+#logo .right .search {
+    float: left;
+    width: 185px;
+    margin-top: 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+#logo .right .search #inpt {
+    width: 80%;
+    padding: 5px 3px;
+}
+
+#logo .right .search button {
+    width: 20%;
+    background: none;
+    padding: 2px 6px;
+    border: none;
+    float: left;
+    letter-spacing: normal;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#logo .right .search button i {
+    font-size: 20px;
+    color: #64a131;
+}
+
+#logo .right .search .hot {
+    width: 100%;
+    padding: 0 3px;
+    border-top: 1px solid #999;
+    color: #999;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#logo .right .search .hot a {
+    padding-right: 5px;
+    color: #999;
+    display: inline-block;
+}
+
+#logo .right .car {
+    float: right;
+    width: 42px;
+    height: 42px;
+    color: #fff;
+    margin: 20px 0 0 15px;
+    position: relative;
+    line-height: normal;
+    cursor: pointer;
+    background: url(../images/icons.png) no-repeat;
+    background-position: -35px -887px;
+}
+
+#logo .right .car i {
+    font-size: 26px;
+    line-height: 30px;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+#logo .right .car span {
+    width: 20px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    top: 4px;
+    left: 14px;
+}
+
+#content {
+    width: 100%;
+}
+
+#content .fruit-type {
+    width: 100%;
+    padding-top: 26px;
+}
+
+#content .fruit-type ul {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#content .fruit-type ul li {
+    width: 100%;
+    overflow: hidden;
+    padding: 12px 0 6px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#content .fruit-type ul li h5 {
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 20px;
+    float: left;
+}
+
+#content .fruit-type ul li span {
+    display: inline-block;
+    width: 48px;
+    background: #64A131;
+    color: #fff;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+}
+
+#content .fruit-type ul li div {
+    width: 1160px;
+    float: right;
+}
+
+#content .fruit-type ul li div a {
+    display: inline-block;
+    color: #555555;
+    font-size: 14px;
+    height: 24px;
+    padding-left: 9px;
+    padding-right: 9px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#content .fruit-class {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 27px;
+}
+
+#content .fruit-class .f-left {
+    width: 1000px;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+#content .fruit-class .f-left .fruit-main {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+#content .fruit-class .f-left .fruit-main li {
+    position: relative;
+    float: left;
+    width: 242px;
+    margin-left: 4px;
+    margin-right: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+#content .fruit-class .f-left .fruit-main li:hover {
+    -moz-box-shadow: 0px 5px 10px #909090;
+    /*firefox*/
+    -webkit-box-shadow: 0px 5px 10px #909090;
+    /*safari或chrome*/
+    box-shadow: 0 0 7px #909090;
+    /*opera或ie9*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=500, Color='#cccccc')";
+    /* For IE 8 */
+}
+
+#content .fruit-class .f-left .fruit-main li a {
+    display: block;
+    width: 244px;
+    height: 244px;
+}
+
+#content .fruit-class .f-left .fruit-main li a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#content .fruit-class .f-left .fruit-main li a dt {
+    height: 24px;
+    line-height: 24px;
+    margin: 0 3px 5px 3px;
+}
+
+#content .fruit-class .f-left .fruit-main li a dt span {
+    float: right;
+    color: #999;
+}
+
+#content .fruit-class .f-left .fruit-main li a dd {
+    padding: 0 5px;
+    height: 22px;
+    font-size: 13px;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #999;
+    margin: 7px 0 0 3px;
+    line-height: 20px;
+    float: left;
+}
+
+#content .fruit-class .f-left .fruit-main li a div {
+    float: right;
+    width: 34px;
+    height: 34px;
+    margin: 3px 3px 0 0;
+    background: url(../images/icons.png) no-repeat -518px -243px;
+}
+
+#content .fruit-class .f-left .fruit-main li .give {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    padding: 6px 5px;
+    color: #fff;
+    background: #FF5353;
+    display: inline-block;
+}
+
+#content .fruit-class .f-left .tail {
+    width: 99%;
+    height: 60px;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#content .fruit-class .f-left .tail .page-list {
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#content .fruit-class .f-left .tail .page-list li {
+    float: left;
+    text-align: center;
+    width: 71px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+#content .fruit-class .f-left .tail .page-list li a:hover {
+    color: #64A131;
+    border-bottom: 1px solid #64A131;
+}
+
+#content .fruit-class .f-left .tail .page-list .page {
+    width: 115px;
+}
+
+#content .fruit-class .f-left .tail .page-list .page a {
+    display: inline-block;
+    height: 26px;
+    margin-right: 14px;
+    line-height: 26px;
+    color: #555;
+}
+
+#content .fruit-class .f-left .tail .page-list .page .selected {
+    width: 26px;
+    color: #fff;
+    background: #64A131;
+    border-radius: 50%;
+}
+
+#content .fruit-class .f-left .tail .page-list .page a:hover {
+    border-bottom: 0;
+}
+
+#content .f-right {
+    width: 250px;
+    float: right;
+}
+
+#content .f-right h5 {
+    color: #64a131;
+    line-height: 39px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+#content .f-right dl {
+    width: 250px;
+    height: 91px;
+    border-bottom: 1px solid #ccc;
+}
+
+#content .f-right dl a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#content .f-right dl a img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-top: 15px;
+}
+
+#content .f-right dl a dt {
+    margin: 15px 0 0 10px;
+    line-height: 20px;
+    color: #555555;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#content .f-right dl a dd {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    float: left;
+    margin: 8px 0 0 10px;
+}
